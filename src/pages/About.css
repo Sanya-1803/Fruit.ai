@@ -1,0 +1,50 @@
+/* Container for the about section */
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #ace3f1, #efadf0);
+  }
+  
+  /* Card styling */
+  .about-card {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 400px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  /* Header section */
+  .about-header h1 {
+    font-size: 2em;
+    margin: 0;
+    color: #444;
+  }
+  
+  /* Content section */
+  .about-content p {
+    font-size: 1em;
+    color: #666;
+    margin-top: 15px;
+    padding: 0 10px;
+    line-height: 1.6;
+  }
+  
+  /* Button styling */
+  .about-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .about-button:hover {
+    background-color: #444;
+  }

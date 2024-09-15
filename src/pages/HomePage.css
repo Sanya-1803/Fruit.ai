@@ -1,0 +1,88 @@
+/* HomePage.css */
+.homepage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #ace3f1, #efadf0);
+  }
+  
+  .title {
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 0.5rem;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .subtitle {
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 2rem;
+  }
+  
+  .services-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  .service-card {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Individual card styles */
+  .chat {
+    background-color: #ffde8e;
+    color: #c027b9;
+  }
+  
+  .translator {
+    background-color: #b2e0fb;
+    color: #2f60f4;
+  }
+  
+  .faqs {
+    background-color: #d8c9ff;
+    color: #45457e;
+  }
+  
+  .about {
+    background-color: #f9c0c0;
+    color: #b62db6;
+  }
+  
+  .service-card span img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  /* Mobile-friendly */
+  @media (max-width: 768px) {
+    .services-container {
+      grid-template-columns: 1fr;
+    }
+  
+    .service-card {
+      width: 120px;
+      height: 120px;
+    }
+  }
+  
